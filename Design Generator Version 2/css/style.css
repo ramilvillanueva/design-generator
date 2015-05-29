@@ -1,0 +1,106 @@
+.Arial{font-family:"Arial"; padding-left: 0px; padding-right: 0px}
+.Verdana{font-family:"Verdana";}
+.Georgia{font-family:"Georgia";}
+.Courier{font-family:"Courier";}
+.ComicSansMS{font-family:"Comic Sans MS";}
+.Impact{font-family:"Impact";}
+.Cooper{font-family:"Cooper";}
+.Forte{font-family:"Forte";}
+.Harrington{font-family:"Harrington";}
+.Hobo{font-family:"Hobo Std";}
+.Jokerman{font-family:"Jokerman";}
+.Lucida{font-family:"Lucida Calligraphy";}
+.Magneto{font-family:"Magneto";}
+.Ravie{font-family:"Ravie";}
+.Showcard{font-family:"Showcard Gothic";}
+.Stencil{font-family:"Stencil";}
+
+.color-preview {
+	border: 1px solid #CCC;
+	margin: 2px;
+	vertical-align: top;
+	display: inline-block;
+	cursor: pointer;
+	overflow: hidden;
+	width: 20px;
+	height: 20px;
+}
+
+.select {
+  font-size: 16px;
+  position: relative;
+  display: inline-block;
+}
+
+.select select {
+  outline: none;
+  -webkit-appearance: none;
+  display: block;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 5px;
+  margin-bottom: 10px;
+  width: 270px;
+  height: 50px;
+  transition: border-color 0.2s;
+  border: 5px solid #5CACEE;
+  background: #fff;
+  color: #555;
+  line-height: normal;
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+  cursor: pointer;
+}
+
+.select .arr {
+  background: #fff;
+  bottom: 15px;
+  position: absolute;
+  right: 5px;
+  top: 5px;
+  width: 50px;
+  pointer-events: none;
+}
+
+.select .arr:before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  right: 24px;
+  margin-top: -5px;
+  pointer-events: none;
+  border-top: 10px solid #5CACEE;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+}
+
+.select .arr:after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  right: 28px;
+  margin-top: -5px;
+  pointer-events: none;
+  border-top: 6px solid #fff;
+  border-left: 6px solid transparent;
+  border-right: 6px solid transparent;
+}
+
+.select option:nth-child(even) { background: #E0EEEE; }
+.select option:nth-child(odd) { background: #ffffff; }
+
+.select .option {
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+}
+
+.shirt{
+	background: #ffffff;
+	width: 530px;
+	height: 590px;
+	position: relative;
+	margin-bottom: 50px;
+	margin-top: 5px;
+}
